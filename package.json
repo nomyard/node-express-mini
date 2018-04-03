@@ -1,7 +1,7 @@
 {
   "name": "node-demo",
   "version": "0.0.1",
-  "description": "LambdaSchool Node.js and Express Demo",
+  "description": "Express Demo",
   "private": true,
   "main": "server.js",
   "scripts": {
@@ -9,10 +9,22 @@
   },
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
     "knex": "^0.14.4",
     "sqlite3": "^4.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.17.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomyard/node-express-mini.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/nomyard/node-express-mini/issues"
+  },
+  "homepage": "https://github.com/nomyard/node-express-mini#readme"
 }
